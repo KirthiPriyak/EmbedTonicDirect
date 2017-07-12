@@ -1,0 +1,178 @@
+.tonic-video-container{
+  background-color: transparent;
+}
+.td-main{
+  height: 46vw;
+  display: flex;
+}
+
+.td-demo {
+  flex: 1;
+  display: flex;
+}
+
+.player-container {
+ /* background-color: #292929; */
+  padding: 1.5em;
+  flex: 2;
+  max-width: 60%;
+  color: #fff;
+}
+
+.td-feed-container {
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  /*background-color: #444444;*/
+  overflow-y: scroll;
+  padding: .75em 2em 0 2em;
+  flex: 1;
+  width: 40%;
+}
+
+.tonic-channel-title {
+  color: #000;
+  font-size: .9em;
+  margin: 0;
+  margin-bottom: 1em;
+  padding: 0;
+  text-align: left;
+  font-weight: bold !important
+}
+
+.td-option {
+  /*border-bottom: 1px solid #2d333e;*/
+  cursor: pointer;
+  list-style: none;
+  display: table;
+  text-align: left;  
+  padding-bottom:10px;
+  margin-bottom:10px;
+}
+
+.td-option:last-child {
+  border: none;
+}
+
+.td-option:hover {
+  background-color: rgba(45, 51, 62, .25);
+}
+
+.tonic-thumbnail-container {
+  background-color: #000;
+  height: 63px;
+  width: 40%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.td-thumbnail {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.td-metadata-container {
+  vertical-align: top;
+  display: table-cell;
+  padding: 5px 16px;
+}
+
+.tonic-video-title {
+    font-size: .85em;
+    color: #000;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    padding-bottom: .75em;
+}
+
+.td-media-description {
+    font-size: .75em !important;
+    color: rgba(255,255,255,.5);
+}
+
+.tonic-video-duration {
+    font-size:.75em;
+    color: #000;
+    display: block;
+}
+
+.td-feed-error {
+  color: rgba(255,255,255,.5);
+  font-size: 1em;
+  text-align: center;
+  position: relative;
+  top: 5em;
+}
+
+/* -------- */
+
+.widget-description {
+  font-size: 17px !important;
+}
+
+.tonic-player-video-title {
+	font-family: Arial, sans-serif;
+	font-size: .85em;
+	color: #000;
+	font-weight: bold;
+	padding: 5px 0 0 0;
+}
+.tonic-player-video-description {
+  font-family: Arial, sans-serif;
+  font-size: .85em;
+  color: #000;
+}
+
+.articles{
+	overflow-y:auto;
+}
+
+.articles, .article-videos{
+	margin-top:10px;
+}
+
+@media (max-width: 2100px){
+	.articles{
+		height:460px;		
+	}	
+}
+
+@media (max-width: 1215px){
+	.articles{
+		height:440px;		
+	}	
+}
+
+@media (max-width: 915px) {
+	.articles{
+		height:620px;		
+	}
+	.col-sm-8{
+		width:100%;
+	}
+	.col-sm-4{
+		width:100%;
+	}
+}
+
+@media (max-width: 765px) {
+	.articles{
+		height:350px;		
+	}
+}
+
+@media (max-width: 500px) {
+	.articles{
+		height:300px;		
+	}
+}
+@media (max-width: 1024px) {
+	.col-sm-8{
+		width:100%;
+	}
+	.col-sm-4{
+		width:100%;
+	}
+}
